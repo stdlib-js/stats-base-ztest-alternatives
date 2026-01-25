@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/stats-base-ztest-alternatives",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Z-test alternative hypotheses.",
   "license": "Apache-2.0",
   "author": {
