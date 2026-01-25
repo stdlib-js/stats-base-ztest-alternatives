@@ -52,13 +52,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import alternatives from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ztest-alternatives@deno/mod.js';
+import alternatives from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ztest-alternatives@v0.1.0-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { enum } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ztest-alternatives@deno/mod.js';
+import { enum } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ztest-alternatives@v0.1.0-deno/mod.js';
 ```
 
 #### alternatives()
@@ -98,7 +98,7 @@ The output array contains the following alternatives:
 
 ```javascript
 var contains = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-assert-contains' ).factory;
-import alternatives from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ztest-alternatives@deno/mod.js';
+import alternatives from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ztest-alternatives@v0.1.0-deno/mod.js';
 
 var isAlternative = contains( alternatives() );
 
